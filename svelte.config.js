@@ -14,7 +14,7 @@ const config = {
 		appDir: "app",
 		adapter: adapter(),
 		paths: {
-			base: process.argv.includes('dev') ? '': '/mood-ball',
+			base: process.argv.includes('dev') ? '': '/mood-ball/',
 		}
 	}
 };
